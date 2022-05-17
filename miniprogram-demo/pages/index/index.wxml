@@ -1,0 +1,6 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="usermotto" bindtap="jumpPage">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view>
