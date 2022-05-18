@@ -8,11 +8,11 @@
 <script>
 export default {
   name: 'Home',
-	data () {
+  data () {
     return {
       url: window.location.origin
     }
-	},
+  },
   methods: {
     reload () {
       window.location.href = window.location.origin
